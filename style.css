@@ -6,13 +6,19 @@
 
 body {
     background-color: rgb(72, 189, 101) ;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
+
+
 .container {
     background-color: white;
-    
+    width: 30vw;
+    height: 50vh;
+    box-shadow: 1px ;
 }
