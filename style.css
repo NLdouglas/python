@@ -25,4 +25,7 @@ body {
     justify-content: center;
 }
 
-f
+h2 {
+    position: relative;
+    bottom: 150px;
+}
