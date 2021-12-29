@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -20,7 +20,7 @@ body {
 
 .container {
     background: white;
-    width: 40vw;
+    width: 38vw;
     height: 95vh;
     border-radius: 12px;
     display: flex;
@@ -30,10 +30,20 @@ body {
 
 h2 {
     position: relative;
-    bottom: 170px;
-    left: 80px; 
-    font-size: 36px;
-    font-weight: 700;
+    bottom: 160px;
+    text-align: center;
+    font-size: 40px;
     line-height: 1.2;
     color: #333333;
+}
+
+.login-field1 {
+    position: relative;
+    right: 55px;
+    bottom: 80px;
+}
+
+.login-field1 label {
+    position: relative;
+    bottom: 25px;
 }
