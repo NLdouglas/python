@@ -37,13 +37,17 @@ h2 {
     color: #333333;
 }
 
-.login-field1 {
+.login-field1 input {
     position: relative;
-    right: 55px;
+    right: 65%;
     bottom: 80px;
+    border: none;
 }
 
 .login-field1 label {
     position: relative;
-    bottom: 25px;
+    bottom: 118px;
+    right: 33%;
+    font-weight: 300;
+    font-size: 15px;
 }
