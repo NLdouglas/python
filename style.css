@@ -20,34 +20,25 @@ body {
 
 .container {
     background: white;
-    width: 38vw;
-    height: 95vh;
-    border-radius: 12px;
+    width: 38%;
+    height: 95%;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 12px;
 }
 
 h2 {
     position: relative;
-    bottom: 160px;
+    bottom: 180px;
     text-align: center;
     font-size: 40px;
     line-height: 1.2;
-    color: #333333;
+    color: #333;
 }
 
-.login-field1 input {
+.login-field1 {
     position: relative;
-    right: 65%;
-    bottom: 80px;
-    border: none;
-}
-
-.login-field1 label {
-    position: relative;
-    bottom: 118px;
-    right: 33%;
-    font-weight: 300;
-    font-size: 15px;
+    bottom: 100px;
+    right: 50%;
 }
