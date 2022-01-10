@@ -38,7 +38,10 @@ h2 {
 }
 
 .login-field1 {
+    width: 100%;
     position: relative;
-    bottom: 100px;
-    right: 50%;
+}
+
+.login-field1 input {
+    
 }
