@@ -1,7 +1,7 @@
-name = str(input('qual seu nome:' ))
-print('minusculo {}'.format(name.lower()))
-print('maisucula {}'.format(name.upper()))
-print('quantidade {}'.format(len(name.strip())))
-parte = name.split()
-print('primeiro nome {}'.format(parte[0]))
-             
+from posixpath import split
+
+
+num = input('digite um numero: ')
+print('unidade {} \n dezena {} \n centena {} \n milhar {}'.format(num[:0], num[1], num[2], num[3]))
+
+#erro se n colcoar os 4 digitos
