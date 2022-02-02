@@ -1,4 +1,5 @@
 from random import randint
+from time import sleep
 
 itens = ('pedra', 'papel', 'tesoura')
 computador = randint(0, 2)
@@ -8,6 +9,7 @@ print('''suas opções:
 [2] TESOURA''')
 
 jogador = int(input('qual a sua jogada: '))
+sleep(1)
 print('Computador jogou {}'.format(itens[computador])) #colocando a variavel computador entre [] passa a ler os itens como numeros
 print('Jogador jogou {}'.format(itens[jogador]))
 
