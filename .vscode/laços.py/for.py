@@ -1,5 +1,5 @@
 '''for c in range(1, 6):
-    print('oi')
+    print('oi')  python sempre le um numero a menos dentro do laço for
 print('fim')'''
 
 for c in range(6, 0, -1): # -1 no final se como iteração (oq acontece no final do laço)
