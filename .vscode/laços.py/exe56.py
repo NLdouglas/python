@@ -4,7 +4,7 @@ for d in range(1, 5):
     nome = input('Nome: ')
     idade = int(input('Idade: '))
     sexo = input('Sexo [M/F]: ')
-    somaidade += idade
+    somaidade += idade #todo valor em idade vai pada somaidade
 mediaidade = somaidade / 4 
 print('a media de idade do grupo é {}'.format(mediaidade))
 #verificar media de idade
