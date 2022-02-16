@@ -2,14 +2,15 @@ termo = int(input('digite o termo: '))
 razao = int(input('digite a razao: '))
 primeiro = termo
 cont = 1
+mais = 10 # quantidade de termos iniciais 
 total = 0
-mais = 10 # quantidade de termos q sera mostrado inicialmente
-while mais != 0: #laços podem ser aninhados, ou seja, laço dentro de um laço 
-    total = total + mais
-    while cont <=total:
-        print('{} - '.format(primeiro), end='')
+while mais != 0:
+    total = total + mais # total passou a receber o valor de mais ou seja vai mostrar os 10 primeiros termos
+    while cont <= total: #numero de termos 
+        print(primeiro, end=' - ')
         primeiro += razao
-        cont +=1
+        cont += 1
     print('Pausa')
-    mais = int(input('quantos termos voce quer mostrar a mais? '))
+    mais = int(input('quantos termos voce que mostrar a mais: '))
 print('fim')
+        
