@@ -1,5 +1,5 @@
 #gerador de numeros aleatorios
-'''from random import randint
+from random import randint
 cont = menor = maior = 0
 for n in range(0, 5):
     num = (randint(0, 9))
@@ -18,7 +18,7 @@ for n in range(0, 5):
     print(f'{num}', end=' ')
 print(f'\nO menor numero é {menor}')
 print(f'O maior numero é {maior}')
-'''
+
 # CURSO EM VIDEO
 
 from random import randint
