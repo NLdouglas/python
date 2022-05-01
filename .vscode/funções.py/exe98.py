@@ -3,6 +3,10 @@ from time import sleep
 
 
 def contador(i, f, p):
+    if p < 0:
+        p *= -1
+    if p == 0:
+        p =1
     print(f'contagem de {i} ate {f} de {p} em {p}')
     sleep(1)
     if i < f:
