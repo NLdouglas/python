@@ -1,5 +1,4 @@
-from time import sleep
-for t in range(10, -1, -1):
-    sleep(1)
+n = int(input('n: '))
+for t in range(1, n+1, 1):
     print(t)
 print('boom')
