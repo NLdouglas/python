@@ -10,7 +10,7 @@ if 5 in num:
 else:
     print('nao existe o numero 5')'''
 
-valores = list()
+'''valores = list()
 valores.append(9)
 valores.append(0)
 valores.append(7)
@@ -23,4 +23,11 @@ b = a #ligando uma lista na outra, ou seja, ambas viram a mesma
 b = a[:] #faz uma copia da lista desejada, ambas diferentes porem com os mesmos elementos
 b[2] = 8
 print(f'lista A:{a}')
-print(f'lsita B:{b}')
+print(f'lsita B:{b}')'''
+
+from re import X
+
+
+t = []
+t.append(['x'])
+print(t)
