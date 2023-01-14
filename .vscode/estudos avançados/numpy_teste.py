@@ -4,7 +4,7 @@ def add_numbers(x, y):
     return x + y        #CURRYING = DERIVAR NOVAS FUNÇÕES A PARTIR DE FUNÇÕES EXISTENTES POR MEIO
                             DA APLICAÇÃO PARCIAL DE ARGUMENTOS 
 
-add_five = lambda y:add_numbers(5,y)
+pythonadd_five = lambda y:add_numbers(5,y)
 print(add_five(add_numbers(5,9)))   mesma coisa que add_five = partial(add_numbers, 5) '''
 
 
